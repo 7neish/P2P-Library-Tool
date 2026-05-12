@@ -1,0 +1,13 @@
+/* Custom styles على الـ Bootstrap */
+body { background-color: #f6f8fa; }
+.navbar-brand { letter-spacing: 0.5px; }
+.tool-card { transition: transform .15s ease; }
+.tool-card:hover { transform: translateY(-3px); box-shadow: 0 4px 12px rgba(0,0,0,.08); }
+.badge-soft { background: rgba(13,110,253,.1); color: #0d6efd; }
+.dashboard-stat { border-left: 4px solid #0d6efd; padding: 1rem; background: #fff; border-radius: .5rem; }
+.dashboard-stat h3 { margin: 0; font-weight: 700; }
+.qr-code { font-family: monospace; letter-spacing: 4px; padding: 1rem; background: #f8f9fa; border: 2px dashed #0d6efd; text-align: center; font-size: 1.5rem; }
+.trust-score { font-weight: 700; }
+.trust-high { color: #198754; }
+.trust-mid  { color: #fd7e14; }
+.trust-low  { color: #dc3545; }
